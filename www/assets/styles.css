@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+:root {
+  --font-family-sans-serif: "TT Chocolates", sans-serif;
+  --primary: #ff3377;
+  --white: #fff;
+  --text: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: var(--font-family-sans-serif);
+  margin: 0;
+}
+
+footer {
+  font-size: 0.875em; /* 14px /16 */
+  margin-top: 1em;
+  border-top: 1px solid #eee;
+  padding: 1em 0 0;
+  font-style: italic;
+  text-align: center;
+  padding: 2em;
+  width: 100%;
+}
+
+:link,
+:visited {
+  text-decoration-color: var(--primary);
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: var(--white);
+  background-image: radial-gradient(rgb(189, 189, 189) 1px, var(--white) 1px);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  height: 10px;
+  background-color: var(--primary);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.page-header__brand {
+  margin-right: auto;
+}
+
+.page-header__nav {
+  padding: 2rem 0;
+}
+
+.me-card {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.625;
+}
+
+.me-card__name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.me-card__avatar {
+  border-radius: 2000px;
+  margin-right: 0.5rem;
+}
+
+.me-card__verification {
+  color: #1da1f2;
+  padding-left: 0.25em;
+}
+
+.me-card__official {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  color: #757575;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 0.875rem;
+}
+
+.me-card__official .icon {
+  font-size: 1.125rem;
+  margin-right: 0.25em;
+}
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  pointer-events: none;
+}
+
+main {
+  flex: 1;
+}
+
+main:focus {
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid #e5ebf1;
+  max-width: 400px;
+  margin: 1.5rem;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.social {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0;
+}
+
+.social-icon {
+  fill: var(--text);
+  transition: 0.3s ease-in;
+}
+
+.social-icon:hover {
+  fill: var(--primary);
+}
+
+@font-face {
+  font-family: "TT Chocolates";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://mina.codes/assets/fonts/TTChocolates-Bold.woff")
+      format("woff"),
+    url("https://mina.codes/assets/fonts/TTChocolates-Bold.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "TT Chocolates";
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://mina.codes/assets/fonts/TTChocolates-Italic.woff")
+      format("woff"),
+    url("https://mina.codes/assets/fonts/TTChocolates-Italic.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "TT Chocolates";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://mina.codes/assets/fonts/TTChocolates-Regular.woff")
+      format("woff"),
+    url("https://mina.codes/assets/fonts/TTChocolates-Regular.woff2")
+      format("woff2");
+}

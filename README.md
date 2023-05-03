@@ -1,1 +1,1 @@
-# minamarkh.am
+![](www/assets/banner.jpg)
