@@ -34,11 +34,6 @@ footer {
   width: 100%;
 }
 
-:link,
-:visited {
-  text-decoration-color: var(--primary);
-}
-
 body {
   display: flex;
   min-height: 100vh;
@@ -139,6 +134,10 @@ html {
 a {
   margin: 0 10px 0 10px;
   text-decoration: none;
+}
+
+a::visited {
+  color: var(--primary);
 }
 
 hr {
