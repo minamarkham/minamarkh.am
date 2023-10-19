@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-  --font-family-sans-serif: "TT Chocolates", sans-serif;
+  --font-family-sans-serif: "Satoshi", sans-serif;
   --primary: #ff3377;
   --white: #fff;
   --text: #000;
@@ -171,31 +171,31 @@ hr {
 }
 
 @font-face {
-  font-family: "TT Chocolates";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
-  src: url("https://mina.codes/assets/fonts/TTChocolates-Bold.woff")
+  src: url("https://mina.codes/assets/fonts/Satoshi-Bold.woff")
       format("woff"),
-    url("https://mina.codes/assets/fonts/TTChocolates-Bold.woff2")
+    url("https://mina.codes/assets/fonts/Satoshi-Bold.woff2")
       format("woff2");
 }
 
 @font-face {
-  font-family: "TT Chocolates";
+  font-family: "Satoshi";
   font-style: italic;
   font-weight: 400;
-  src: url("https://mina.codes/assets/fonts/TTChocolates-Italic.woff")
+  src: url("https://mina.codes/assets/fonts/Satoshi-Italic.woff")
       format("woff"),
-    url("https://mina.codes/assets/fonts/TTChocolates-Italic.woff2")
+    url("https://mina.codes/assets/fonts/Satoshi-Italic.woff2")
       format("woff2");
 }
 
 @font-face {
-  font-family: "TT Chocolates";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
-  src: url("https://mina.codes/assets/fonts/TTChocolates-Regular.woff")
+  src: url("https://mina.codes/assets/fonts/Satoshi-Regular.woff")
       format("woff"),
-    url("https://mina.codes/assets/fonts/TTChocolates-Regular.woff2")
+    url("https://mina.codes/assets/fonts/Satoshi-Regular.woff2")
       format("woff2");
 }
