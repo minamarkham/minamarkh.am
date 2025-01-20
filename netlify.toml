@@ -1,2 +1,8 @@
 [build]
   command = "echo 'do the thing'"
+
+[[redirects]]
+  from = "/shits-weird/"
+  to = "/downloads/shits-getting-weird-a-prep-list-for-the-unexpected.pdf"
+  status = 301
+  force = true
